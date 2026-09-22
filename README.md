@@ -29,10 +29,17 @@ per-request tracing, Docker Compose for local dev, and CI on every push.
 
 ### [UFC Fight Predictor](https://github.com/arvinzargaran/ufc-predictor) · Python
 
-Predicts UFC bout outcomes from historical fighter statistics. The published version
-scores fighters across performance metrics from four CSV datasets and reports a winner
-with a confidence percentage. A probabilistic model evaluated against a holdout set is
-in progress locally and not yet pushed.
+Predicts UFC bout outcomes from historical fighter statistics — a logistic-regression
+ensemble over striking, grappling, Elo and experience differentials, plus a blend with
+the betting market where a line exists. It scrapes its own dataset and betting lines,
+predicts full upcoming cards, and logs every pick to a ledger so the live record can be
+graded after the event.
+
+Evaluated on the most recent 1,300 fights, trained only on earlier ones: 65.1% accuracy
+stats-only, 69.7% blended with the market. The README reports these next to the market's
+own 70.0% baseline, because the honest finding is that the market is the stronger
+predictor and the blend buys a small improvement in calibration rather than in accuracy.
+I would rather publish that than a flattering number.
 
 ### [LeetCode Solutions](https://github.com/arvinzargaran/leetcode-solutions) · Java
 
