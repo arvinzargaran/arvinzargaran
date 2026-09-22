@@ -6,6 +6,9 @@ plainly when they don't know.
 
 Currently looking for a **Software Engineering co-op in Toronto for Summer 2027**.
 
+Full write-ups — the sourcing decisions, the trade-offs, and the honest numbers —
+are at [arvinzargaran.com](https://arvinzargaran.com).
+
 ---
 
 ## What I'm building
@@ -76,4 +79,4 @@ and the product side of engineering.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/arvinzargaran) · [GitHub](https://github.com/arvinzargaran)
+[Website](https://arvinzargaran.com) · [LinkedIn](https://www.linkedin.com/in/arvinzargaran) · [GitHub](https://github.com/arvinzargaran)
