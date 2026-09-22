@@ -29,9 +29,10 @@ per-request tracing, Docker Compose for local dev, and CI on every push.
 
 ### [UFC Fight Predictor](https://github.com/arvinzargaran/ufc-predictor) · Python
 
-Predicts UFC bout outcomes from historical fighter statistics — a logistic-regression
-ensemble over striking, grappling, Elo and experience differentials, plus a blend with
-the betting market where a line exists. It scrapes its own dataset and betting lines,
+Predicts UFC bout outcomes from historical fighter statistics. An ensemble of logistic
+regression, random forest and hist gradient boosting over 65 matchup differentials
+(striking, grappling, Elo, experience), plus a blend with the betting market where a
+line exists. It scrapes its own dataset and betting lines,
 predicts full upcoming cards, and logs every pick to a ledger so the live record can be
 graded after the event.
 
